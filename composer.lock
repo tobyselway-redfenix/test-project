@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6947c0f3071f1f260ce31d10a56d7ff4",
+    "packages": [
+        {
+            "name": "redfenix/test-package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobyselway-redfenix/test-package.git",
+                "reference": "d26dd1ca415da57299625832255b141839fb7bf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobyselway-redfenix/test-package/zipball/d26dd1ca415da57299625832255b141839fb7bf3",
+                "reference": "d26dd1ca415da57299625832255b141839fb7bf3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TestPackage\\": "src/TestPackage"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Toby Selway",
+                    "email": "tobyselway@redfenix.pt"
+                }
+            ],
+            "description": "Composer test package. To be used for testing composer package development and integration.",
+            "support": {
+                "source": "https://github.com/tobyselway-redfenix/test-package/tree/master",
+                "issues": "https://github.com/tobyselway-redfenix/test-package/issues"
+            },
+            "time": "2020-06-30T16:32:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "redfenix/test-package": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

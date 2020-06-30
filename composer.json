@@ -1,0 +1,21 @@
+{
+    "name": "tobyselway/test-project",
+    "description": "Test project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Selway",
+            "email": "tobyselway@redfenix.pt"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tobyselway-redfenix/test-package"
+        }
+    ],
+    "require": {
+        "redfenix/test-package": "dev-master"
+    }
+}
